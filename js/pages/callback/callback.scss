@@ -1,0 +1,23 @@
+body{
+    min-height: 100vh;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+    color: #fff;
+
+    border-radius: 50%;
+    background: rgb(68, 158, 75);
+
+    transition-property: width, height, margin-left, margin-top;
+    transition-duration: 2s;
+    position: fixed;
+    transform: translateX(-50%) translateY(-50%);
+}
