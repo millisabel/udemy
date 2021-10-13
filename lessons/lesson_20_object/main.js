@@ -11,7 +11,7 @@ const options = {
     makeTest: function(){
         console.log('test');
     }
-}
+};
 
 options.makeTest();
 
